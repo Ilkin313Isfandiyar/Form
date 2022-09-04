@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="form.css">
+    
+</head>
+<body>
+    
+    <div class="container">
+        <div id="beforeForm">
+            <h1>Future in your hands!</h1>
+            <h2>Share information and support us!</h2>
+            <br>
+            <button id="share">Share Information</button>
+        </div>
+
+        <div id="form">
+            <form>
+                <div class="form_1">
+                <label for="name" class="mainInfo">Name</label>
+                <br>
+                <input type="text" name="name">
+                <br><br>
+
+                <label for="surname" class="mainInfo">Surname</label>
+                <br>
+                <input type="text" name="surname">
+                <br><br>
+
+                <label for="age" class="mainInfo">Age</label>
+                <br>
+                <input type="number" name="age">
+                <br><br>
+            </div>
+            <div class="form_2">
+                <label for="education"></label>
+                <select name="education">
+                    <option value="bachelor">Bachelor</option>
+                    <option value="master">Master</option>
+                    <option value="doctorate">Doctorate</option>
+                </select>
+                <br><br>
+
+                <label for="maritalStatus"></label>
+                <select name="maritalStatus">
+                    <option value="married">Married</option>
+                    <option value="Single">Single</option>
+                    <option value="Divorced">Divorced</option>
+                </select>
+                <br><br>
+
+                <label for="yearlySalary"></label>
+                <select name="yearlySalary">
+                    <option value="120000<">120000<</option>
+                    <option value="80000-120000">80000-120000</option>
+                    <option value="60000-80000">60000-80000</option>
+                    <option value="40000-60000">40000-60000</option>
+                    <option value="<40000>">40000></option>
+                </select>
+                <br><br>
+
+                
+            </div>
+            <div class="submitButton">   
+                <button type="submit" id="submit">Submit</button>
+            </div>
+                
+
+
+            </form>
+        </div>
+    </div>
+
+
+    <script src="form.js"></script>
+</body>
+</html>
